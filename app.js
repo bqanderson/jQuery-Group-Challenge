@@ -1,9 +1,10 @@
 $(function(){
   var carsList = [];
-  $('form').on("submit", function(event)){
+  $('form').on("submit", function(event){
     event.preventDefault();
-    var serialized = $('form').serializedArray();
-    carsList.push(serialized);
-  };
-  
+    var serialized = $('form').serializeArray;
+    console.log($('form').serializeArray());
+    // carsList.push(serialized);
+  });
+
 });
