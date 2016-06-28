@@ -9,33 +9,56 @@
   </head>
   <body>
     <h1>jQuery Group Challenge</h1>
-    <form id="carInfo">
-      <label for="make">Make:</lable>
-      <input type="text" name="make" id="make" /><br>
 
-      <label for="model">Model:</lable>
-      <input type="text" name="model" id="model" /><br>
+    <div class="addACar">
+      <div class="header">
+        <h2 class="underline">Add a New Car</h2>
+      </div>
 
-      <label for="year">Year:</label>
-      <input type="number" name="year" id="year" /><br>
+      <form id="carInfo">
+        <p class="forms">
+          <label for="make">Make:</lable><br>
+          <input type="text" name="make" id="make" />
+        </p>
 
-      <label for="color">Color:</label>
-      <input type="text" name="color" id="color" /><br>
+        <p class="forms">
+          <label for="model">Model:</lable><br>
+          <input type="text" name="model" id="model" />
+        </p>
 
-      <label for="rating">Customer Rating:</label>
-      <select name="rating" id="rating">
-        <option value="1" selected>1</option>
-        <option value="2" selected>2</option>
-        <option value="3" selected>3</option>
-        <option value="4" selected>4</option>
-        <option value="5" selected>5</option>
-      </select><br>
+        <p class="forms">
+          <label for="year">Year:</label><br>
+          <input type="number" name="year" id="year" />
+        </p>
 
-      <label for="price">Price:</label>
-      <input type="number" name="price" id="price" />
+        <p class="forms">
+          <label for="color">Color:</label><br>
+          <input type="text" name="color" id="color" />
+        </p>
 
-      <input type="submit" />
+        <p class="forms">
+          <label for="rating">Customer Rating:</label><br>
+          <select name="rating" id="rating">
+            <option value="1" selected>1</option>
+            <option value="2" selected>2</option>
+            <option value="3" selected>3</option>
+            <option value="4" selected>4</option>
+            <option value="5" selected>5</option>
+          </select>
+        </p>
 
-    </form>
+        <p class="forms">
+          <label for="price">Price:</label><br>
+          <input type="number" name="price" id="price" />
+        </p>
+
+        <p class="forms button">
+          <input type="submit" />
+        </p>
+      </form>
+    </div>
+
+    <div class="cars"></div>
+
   </body>
 </html>

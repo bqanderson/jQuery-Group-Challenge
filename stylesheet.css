@@ -17,4 +17,57 @@ h2 {
 	font-weight: lighter;
 }
 
-.
+.underline {
+  border-bottom: 1px solid #8C001A;
+}
+
+.header {
+  background-color: burlywood;
+  border-bottom: 1px solid #8C001A;
+  padding: 5px;
+}
+
+.addACar {
+  border: 1px solid #8C001A;
+  width: 25%;
+  /*background-color: grey;*/
+}
+
+.forms {
+  margin: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.buttom {
+  text-align: right;
+}
+
+input[type=text] {
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=number] {
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    font-size: 1em;
+    text-align: center;
+    padding: 5px 25px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
