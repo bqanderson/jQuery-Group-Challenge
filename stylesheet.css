@@ -30,7 +30,18 @@ h2 {
 .addACar {
   border: 1px solid #8C001A;
   width: 25%;
+  float: left;
   /*background-color: grey;*/
+}
+
+.cars {
+  width: 70%;
+  float: right;
+}
+
+.rate1 {
+  border: 1px solid #8c001a;
+  background-color: blue;
 }
 
 .forms {

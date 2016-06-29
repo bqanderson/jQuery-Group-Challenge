@@ -3,10 +3,10 @@ $(function(){
   var carNum = 0;
   $('#carInfo').on("submit", function(event){
     event.preventDefault();
-    var serialized = $('#carInfo').serializeArray();
+    var serialized = $('#carInfo').serializeObject();
     carsList.push(serialized);
     carNum = carsList.length-1;
-    $('.cars').append('<p>' + carsList[carNum][0]['make'] + '</p>')
+    $('.cars').append('<div class="rate1"><p>' + carsList[carNum].make + '</p></div>')
     console.log(carsList);
 
   });
