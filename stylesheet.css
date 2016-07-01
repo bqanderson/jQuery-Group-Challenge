@@ -40,8 +40,33 @@ h2 {
 }
 
 .rate1 {
-  border: 1px solid #8c001a;
-  background-color: blue;
+  border: 3px solid red;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.rate2 {
+  border: 3px solid orange;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.rate3 {
+  border: 3px solid yellow;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.rate4 {
+  border: 3px solid greenyellow;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.rate5 {
+  border: 3px solid green;
+	margin-top: 5px;
+	padding: 5px;
 }
 
 .forms {
@@ -52,6 +77,11 @@ h2 {
 
 .buttom {
   text-align: right;
+}
+
+.remove {
+	float: right;
+	margin: 5px;
 }
 
 input[type=text] {
