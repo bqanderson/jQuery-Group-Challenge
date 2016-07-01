@@ -6,10 +6,14 @@ $(function(){
     var serialized = $('#carInfo').serializeObject();
     carsList.push(serialized);
     carNum = carsList.length-1;
-    $('.cars').append('<div class="rate' + carsList[carNum].rating + '"><h3>Car ' + carsList.length + '</h3><ul><li>Make: ' + carsList[carNum].make + '</li>' +
-    '<li>Model: ' + carsList[carNum].model + '</li><li>Year: ' + carsList[carNum].year + '</li>' +
-    '<li>Color: ' + carsList[carNum].color + '</li><li>Customer Rating: ' + carsList[carNum].rating + '</li>' +
-    '<li>Price: ' + carsList[carNum].price + '<button class="remove">Remove</button></li></div>');
+    carsList[carNum].price = parseInt(carsList[carNum].price);
+    $('.cars').append('<div class="rate' + carsList[carNum].rating + '"><h3>' +
+    carsList[carNum].make + ' ' + carsList[carNum].model + '</h3><ul>' +
+    '<li>Year: ' + carsList[carNum].year + '</li>' +
+    '<li>Color: ' + carsList[carNum].color +
+    '</li><li>Customer Rating: ' + carsList[carNum].rating +
+    '</li>' + '<li>Price: ' + carsList[carNum].price.toLocaleString('en-US', {style: 'currency', currency: 'USD'}) +
+    '<button class="remove">Remove</button></li></div>');
     $('#carInfo').trigger("reset");
     console.log(carsList);
 
