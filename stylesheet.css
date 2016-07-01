@@ -17,6 +17,17 @@ h2 {
 	font-weight: lighter;
 }
 
+h3 {
+	font-size: 1.125em;
+	font-weight: lighter;
+	border-bottom: 1px solid #000;
+}
+
+li {
+	font-size: 1em;
+	font-weight: lighter;
+}
+
 .underline {
   border-bottom: 1px solid #8C001A;
 }
@@ -40,8 +51,38 @@ h2 {
 }
 
 .rate1 {
-  border: 1px solid #8c001a;
-  background-color: blue;
+  border: 1px solid #000;
+	background-color: tomato;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.rate2 {
+	border: 1px solid #000;
+	background-color: coral;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.rate3 {
+	border: 1px solid #000;
+	background-color: goldenrod;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.rate4 {
+	border: 1px solid #000;
+	background-color: yellowgreen;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.rate5 {
+	border: 1px solid #000;
+	background-color: mediumseagreen;
+	margin-top: 5px;
+	padding: 5px;
 }
 
 .forms {
@@ -52,6 +93,16 @@ h2 {
 
 .buttom {
   text-align: right;
+}
+
+.remove {
+	float: right;
+	margin: 5px;
+	opacity: 0.5;
+}
+
+.remove:hover {
+	opacity: 1;
 }
 
 input[type=text] {
